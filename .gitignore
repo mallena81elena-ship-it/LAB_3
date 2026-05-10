@@ -1,0 +1,35 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные (обычно большие; преподавателю опишите в README, откуда взять)
+data/*.parquet
+data/*.csv
+
+# Результаты локального прогона (графики и отчёты занимают место; после clone выполните ноутбук)
+results/*
+!results/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Секреты
+.env
+.env.*
